@@ -226,6 +226,10 @@ module.exports = {
       ),
       await config.transform(
         config,
+        '/sg-alerts/topics/cdc-practical-test-slots/'
+      ),
+      await config.transform(
+        config,
         '/sg-alerts/topics/cdc-appointment-slots/'
       ),
       await config.transform(config, '/sg-alerts/topics/fixed-deposit-rates/'),
