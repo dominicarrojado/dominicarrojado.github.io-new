@@ -246,6 +246,10 @@ module.exports = {
       ),
       await config.transform(
         config,
+        '/sg-alerts/topics/ssdc-practical-test-slots/'
+      ),
+      await config.transform(
+        config,
         '/sg-alerts/topics/bbdc-appointment-slots/'
       ),
       await config.transform(
